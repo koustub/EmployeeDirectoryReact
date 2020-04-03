@@ -133,7 +133,7 @@ function Display() {
 
     return (
         <div style={containerStyle}>
-            <h1 style={title}>User Information</h1>
+            <h1 style={title}>Employee Information</h1>
             <div>
             <input style={form.inpt} onChange={handleChange} placeholder='Enter Input' value={input} type='text' />
             <button style={form.btn} type='button' onClick={displayInput}>search</button>
